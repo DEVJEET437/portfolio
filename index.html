@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DEVJEET</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+      <section role="region" aria-labelledby="home" class="first" id="home">
+          <div class="home">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc5CwlkUcqivPHYCwHA5sol5wc2fbfHtpRUA&s" alt="doremon">
+      <div>
+        <h1 class="name" >Hello, I am <span class="myname">DEVJEET BEHERA</span></h1>
+      <h2 class="work">I am a beginner web developer</h2>
+      <p>I am currently studying in Odisha University of Technology and Research majoring in Electrical Engineering. I want to pursue a carrer in Web Development.</p>
+      <div class="icon">
+        <a href="https://github.com/DEVJEET437"><img src="data:image/png;base64,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"  class="icons"/></a>
+        <a href=""><img src="https://img.freepik.com/premium-vector/linkedin-logo_578229-227.jpg" class="icons"></a>
+        <a href=""><a href="https://www.facebook.com/devjeet.behera.9"><img src="https://i.pinimg.com/564x/00/65/f6/0065f63eaba18602b4e59c886c0ebcc6.jpg" class="icons"></a></a>
+        <a href=""><a href="https://www.instagram.com/devjeeet_/?theme=dark"><img src="https://i.pinimg.com/736x/2c/da/19/2cda1925dcf4fb8f0644413f49671ffa.jpg" class="icons"></a></a>
+      </div>
+     </div>
+    </div>
+      </section>
+    <div class="border" id="skills"></div>
+    
+    <main>
+        
+        <section role="region" aria-labelledby="skills">
+          <h2 class="sk">SKILLS</h2>
+          <div class="skill">
+            <ul>
+              <li class="item">HTML</li>
+              <li class="item">CSS</li>
+              <li class="item">JavaScript</li>
+              <li class="item">Figma</li>
+            </ul>
+          </div>
+        </section>
+        <div class="border" id="education"></div>
+        <section role="region" aria-labelledby="education" class="edu">
+          <h2 class="inst">KENDRIYA VIDYALAYA NO.3, BHUBANESWAR</h2>
+          <p id="edu">10th Board</p>
+          <h2 class="inst1">KENDRIYA VIDYALAYA NO.3, BHUBANESWAR</h2>
+          <p id="edu">12th Board</p>
+        </section>
+        <div class="border" id="contact"></div>
+        <section role="region" aria-labelledby="contact" class="last" id="contact">
+          <p class="inform">Email: devjeet09@gmail.com</p>
+          <p class="informs">Mobile: +919467873522</p>
+          <p class="informs">Address: IMMT Colony, Archarya Vihar, Bhuabneswar</p>
+        </section>
+    </main>
+  </body>
+</html>
